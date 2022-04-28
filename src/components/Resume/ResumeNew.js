@@ -9,8 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-"https://raw.githubusercontent.com/roohitgupta/Portfolio/blob/master/src/Assets/Resume.pdf"
-
+"https://gilded-biscotti-a1d910.netlify.app/static/media/Resume.e90ff331457679e4076b.pdf"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
