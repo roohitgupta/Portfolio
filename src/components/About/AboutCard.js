@@ -9,28 +9,39 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Rohit Gupta </span>
-            from <span className="purple"> Bhopal, India.</span>
-            <br />I am pursing MERN stack web devlopment from MASAI SCHOOL.
+            from <span className="purple"> Bhopal, India.</span> <br />
+            <br />
+            Aspiring Full Stack Web Developer at <span className="purple">MASAI SCHOOL,</span> Bengaluru, Karnataka.
+            Looking forward graduate from University of{" "}
+            <span className="purple">
+              {" "}
+              Devi Ahilya Vishwavidyalaya, Indore{" "}
+            </span>
+            with Bachelor of Computer Science.
+            <br />
+            Have done numerous projects involving Front and Back end
+            technologies. 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Cricket
             </li>
             <li className="about-activity">
               <ImPointRight /> Writting Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Reading Self Improvment Books
             </li>
-          </ul>
+          </ul> 
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Any fool can write code that a computer can understand. <br /> 
+            Good programmers write code that humans can understand."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Martin Fowler</footer>
         </blockquote>
       </Card.Body>
     </Card>

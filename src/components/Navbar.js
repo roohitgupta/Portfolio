@@ -1,3 +1,5 @@
+import "../App.css";
+
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -38,9 +40,12 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        {/* <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
+        <a className="contact"  type="button" href="mailto:roohitgupta2@gmail.com">Contact</a>
+        
+        
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -54,14 +59,14 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link href="/#home" to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
+                href="/#about"
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
@@ -71,7 +76,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
+                href="/#projects"
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -94,7 +99,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
+                href="https://medium.com/@roohitgupta2"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +109,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/roohitgupta"
                 target="_blank"
                 className="fork-btn-inner"
               >
