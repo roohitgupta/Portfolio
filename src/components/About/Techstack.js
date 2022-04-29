@@ -11,7 +11,6 @@ import {
   DiNpm,
 } from "react-icons/di";
 import {
-  SiFirebase,
   SiRedux,
 } from "react-icons/si";
 

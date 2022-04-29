@@ -6,7 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
-import ResumeNew from "../Resume/ResumeNew"
+// import ResumeNew from "../Resume/ResumeNew"
 
 function Home() {
   return (
