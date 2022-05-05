@@ -1,17 +1,17 @@
 # Portfolio
 
 Built With
-My personal portfolio soumyajit.tech which features some of my github projects as well as my resume and technical skills.
+
 
 This project was built using these technologies.
 
-React.js
-Node.js
-Express.js
-CSS3
-VsCode
-Vercel
-Features
+React.js ||
+Node.js ||  
+Express.js ||
+CSS3 ||
+VsCode ||
+Netlify ||
+Features ||
 📖 Multi-Page Layout
 
 🎨 Styled with React-Bootstrap and Css with easy to customize colors
