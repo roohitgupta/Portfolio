@@ -16,6 +16,9 @@ Features ||
 
 🎨 Styled with React-Bootstrap and Css with easy to customize colors
 
+![image](https://user-images.githubusercontent.com/96112427/166959308-c55e9e71-922e-4bb8-8eca-b85487469a9f.png)
+
+
 📱 Fully Responsive
 
 Getting Started
