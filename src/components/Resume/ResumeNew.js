@@ -33,11 +33,11 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
+        {/* <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 400 ? 1.1 : 0.6} />
           </Document>
-        </Row> 
+        </Row>  */}
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button

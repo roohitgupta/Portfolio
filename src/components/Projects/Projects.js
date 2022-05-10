@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="Mednear Clone"
               description="Mednear is the Primary Online Pharmacy in India that provides prescription, Over-the-counter medicines, and generic medicines all over India. The main motive of MedNear is to Ensuring Health for all. They make a simple way for people to Buy Prescription Medicine Online from anywhere in India and any time at the best prices."
-              link="https://github.com/HrgChampion/Mednear-clone"
-              live_link="mednear.netlify.app"
+              link = "https://github.com/HrgChampion/Mednear-clone"
+              live_link = "https://mednear.netlify.app/"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               title="Onn-Bikes Clone"
               description="Whenever I go to a new city where I don’t know anyone or never been before it gets me little scared than, I really felt like I need my own bike to explore the city and go wherever I need, that’s exactly where our website will help you. it provides you every kind of bike whatever you’re looking for. Cruising, Sports, even a Scooter is available. you just need a driving license number and you’re ready to go. yeah! it is that simple."
               link="https://github.com/Ritesh6997/ONN-BIke-Complete-Project"
-              live_link="sharp-brahmagupta-a8b2e3.netlify.app/"
+              live_link="https://sharp-brahmagupta-a8b2e3.netlify.app/"
             />
           </Col>
 
@@ -50,7 +50,7 @@ function Projects() {
               title="KFC Clone"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               link="https://github.com/roohitgupta/KFC_Clone"
-              live_link=""
+              live_link="https://frolicking-chimera-feaef0.netlify.app/"
             />
           </Col>
 

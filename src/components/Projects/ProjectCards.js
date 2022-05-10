@@ -16,7 +16,7 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
-        <Button variant="primary" href={props.live_link}>
+        <Button variant="danger" href={props.live_link} target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Live"}
         </Button>
