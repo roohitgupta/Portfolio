@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import Resume from "../../Assets/Resume.pdf"
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-"https://gilded-biscotti-a1d910.netlify.app/static/media/Resume.e90ff331457679e4076b.pdf"
+// const resumeLink =
+// "https://gilded-biscotti-a1d910.netlify.app/static/media/Resume.e90ff331457679e4076b.pdf"
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  // const [width, setWidth] = useState(1200);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+  // useEffect(() => {
+  //   setWidth(window.innerWidth);
+  // }, []);
 
   return (
     <div>
